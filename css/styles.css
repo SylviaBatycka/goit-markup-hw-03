@@ -14,12 +14,18 @@
     line-height: 1.2;
     color: var(--color-black);
   }
+
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+  }
   
   
-  .h2 {
+  h2 {
     font-size: 1rem;
     line-height: 2;
   }
+
   .link {
     text-decoration: none;
     color: var(--color-black);
@@ -35,7 +41,7 @@
   .list {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
  
   .button:hover,
@@ -50,3 +56,10 @@
 
   }
 
+  .section {
+    padding: 94px 0px;
+  }
+
+.card{
+  border-bottom: 5px;
+}
