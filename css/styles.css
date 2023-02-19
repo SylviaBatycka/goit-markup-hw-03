@@ -32,8 +32,10 @@
     text-decoration-color: var(--color-darkblue);
   }
   
-  .list{
+  .list {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
   }
  
   .button:hover,
@@ -42,3 +44,9 @@
     text-decoration: underline;
     text-decoration-color: var(--color-darkblue);
   }
+
+  .container {
+    width: 1200px;
+
+  }
+
