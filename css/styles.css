@@ -21,7 +21,6 @@
       font-weight: 700;
       font-size: 36px;
       line-height: 42.19px;
-      text-align: center;
       }
     
       h3 {
@@ -31,15 +30,6 @@
         text-transform: uppercase;
       }
 
-  .menu {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .top-contact {
-   display: flex;
-   align-content: flex-end;
-  }
 
   .link {
     text-decoration: none;
@@ -54,7 +44,6 @@
   
   .list {
     list-style-type: none;
-    display: flex;
   }
  
   .button:hover,
@@ -63,11 +52,15 @@
     text-decoration-color: var(--color-brandblue);
   }
 
-  .container {
+  /*.container {
     width: 1200px;
 
-  }
+  }*/
 
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+  }
   .section {
     padding: 94px 0px;
   }
@@ -93,3 +86,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+ 
+.top-contact {
+  display: flex;
+  align-content: flex-end;
+ }
