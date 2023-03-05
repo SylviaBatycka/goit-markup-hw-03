@@ -39,6 +39,7 @@
   .top-contact {
    display: flex;
    justify-content: flex-end;
+   align-content: flex-end;
   }
 
   .link {
