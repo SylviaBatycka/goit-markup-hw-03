@@ -51,7 +51,7 @@
   .link:hover,
   .link:focus {
     color: var(--color-babyblue);
-    text-decoration-color: var(--color-brandblue;
+    text-decoration-color: var(--color-brandblue);
   }
   
   .list {
@@ -74,13 +74,7 @@
     padding: 94px 0px;
   }
 
-  .p-index {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--color-brandgrey);
-      }
+ 
 .card-set{
   display: flex;
   flex-wrap: wrap;
