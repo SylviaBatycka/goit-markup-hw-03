@@ -23,6 +23,7 @@
       font-weight: 700;
       font-size: 36px;
       line-height: 42.19px;
+      text-align: center;
       }
     
       h3 {
@@ -39,7 +40,6 @@
   
   .top-contact {
    display: flex;
-   justify-content: flex-end;
    align-content: flex-end;
   }
 
