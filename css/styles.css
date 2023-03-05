@@ -51,8 +51,7 @@
   .link:hover,
   .link:focus {
     color: var(--color-babyblue);
-    text-decoration: underline;
-    text-decoration-color: var(--color-darkblue);
+    text-decoration-color: var(--color-brandblue;
   }
   
   .list {
@@ -63,8 +62,7 @@
   .button:hover,
   .button:focus {
     color: var(--color-babyblue);
-    text-decoration: underline;
-    text-decoration-color: var(--color-darkblue);
+    text-decoration-color: var(--color-brandblue);
   }
 
   .container {
