@@ -61,6 +61,12 @@
     display: flex;
     justify-content: flex-start;
   }
+
+  .topcontact {
+    display: flex;
+    justify-content: flex-end;
+   }
+
   .section {
     padding: 94px 0px;
   }
@@ -88,7 +94,3 @@
 }
 
  
-.top-contact {
-  display: flex;
-  align-content: flex-end;
- }
