@@ -5,10 +5,8 @@
  }
    
   body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    color: var(--color-black);
+    font-family: "Roboto", sans-serif;
+    color: var(--color-brandblack);
   }
     
       h1 {
