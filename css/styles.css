@@ -103,8 +103,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-address.list {
-  display: flex;
+#column {
   flex-direction: column;
 }
 
