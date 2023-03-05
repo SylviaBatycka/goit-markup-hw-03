@@ -52,10 +52,11 @@
     text-decoration-color: var(--color-brandblue);
   }
 
-  /*.container {
+  .container {
     width: 1200px;
+    padding: 15px;
 
-  }*/
+  }
 
   .menu {
     display: flex;
