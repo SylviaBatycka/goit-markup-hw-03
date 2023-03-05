@@ -77,7 +77,11 @@
   .section {
     padding: 94px 0px;
   }
-
+  
+  .imgbox {
+    border: 0px;
+    margin-right: 30px;
+  }
  
 .card-set{
   display: flex;
