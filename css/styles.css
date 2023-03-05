@@ -1,12 +1,8 @@
 :root {
-    --color-pink: rgb(242, 9, 242);
-    --color-white: rgb(255, 255, 255);
-    --color-black: rgb(0, 0, 0); 
-    --color-green: rgb(103, 151, 112);
-    --color-red: rgb(249, 2, 2);
-    --color-babyblue: rgb(2, 245, 245);
-    --color-darkblue: rgb(38, 2, 245);
-   }
+  --color-brandblack: rgb(33,33,33); 
+  --color-brandblue: rgb(33,150,243);
+  --color-brandgrey: rgb(75,75,75);
+ }
    
   body {
     font-family: "Roboto", "Raleway", sans-serif;
@@ -14,22 +10,32 @@
     line-height: 1.2;
     color: var(--color-black);
   }
+    
+      h1 {
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 60px;
+      text-transform: uppercase;
+      }
+      
+      h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42.19px;
+      }
+    
+      h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+      }
 
   .menu {
     display: flex;
     justify-content: flex-start;
   }
   
-  h1 {
-    text-transform: uppercase;
-  }
-  
-  h2 {
-    font-size: 1rem;
-    line-height: 2;
-    align-content: center;
-  }
-
   .link {
     text-decoration: none;
     color: var(--color-black);
@@ -63,6 +69,13 @@
     padding: 94px 0px;
   }
 
+  .p-index {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-brandgrey);
+      }
 .card-set{
   display: flex;
   flex-wrap: wrap;
