@@ -76,6 +76,7 @@
    }
 
   .section {
+    display: block;
     padding: 94px 0px;
   }
   
