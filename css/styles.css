@@ -124,6 +124,7 @@
 }
  
 .dark-panel {
+  display: inline;
   background-color: var(--color-branddark);
   width: 1600px;
   height: 600px;
