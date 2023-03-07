@@ -46,7 +46,13 @@
     list-style-type: none;
     display: flex;
   }
- 
+
+  .list-team {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
   .button:hover,
   .button:focus {
     color: var(--color-brandblue);
@@ -74,7 +80,7 @@
     padding: 94px 0px;
   }
   
-  .imgbox {
+  .image {
     border: 0px;
     margin-right: 30px;
   }
