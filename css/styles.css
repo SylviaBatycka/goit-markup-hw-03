@@ -51,6 +51,7 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
+    
   }
 
   .button:hover,
@@ -117,7 +118,7 @@
   color: var(--color-white);
 }
 
-#column {
+.list-footer {
   flex-direction: column;
 }
 
