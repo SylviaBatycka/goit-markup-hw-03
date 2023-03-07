@@ -89,6 +89,7 @@
 /*.card-set{
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(100%-20px) / 3;
   gap: 10px;
 }
 .card {
